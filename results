@@ -1,0 +1,180 @@
+
+0.1*self.heuristic6(grid)+0.1*grid.getMaxTile()+self.heuristic1(grid)
+Change IDS to while time<timelimit: (22/34)(16/25)
+Game 1 start  4096
+Game 2 start  2048
+Game 3 start  1024
+Game 4 start  1024
+Game 5 start  2048
+Game 6 start  4096
+Game 7 start  4096
+Game 8 start  4096
+Game 9 start  1024
+Game 10 start  1024
+Game 11 start  1024
+Game 12 start  2048
+Game 13 start  2048
+Game 14 start  2048
+Game 15 start  1024
+Game 16 start  4096
+Game 17 start  2048
+Game 18 start  2048
+Game 19 start  1024
+Game 20 start  1024
+Game 21 start  4096
+Game 22 start  2048
+Game 23 start  2048
+Game 24 start  1024
+Game 25 start  2048
+Game 26 start  2048
+Game 27 start  1024
+Game 28 start  1024
+Game 29 start  2048
+Game 30 start  512
+Game 31 start  4096
+Game 32 start  2048
+Game 33 start  2048
+Game 34 start  2048
+
+Change eval to: h1 alone (0/25)
+Game 1 start  512
+Game 2 start  512
+Game 3 start  512
+Game 4 start  256
+Game 5 start  512
+Game 6 start  512
+Game 7 start  512
+Game 8 start  512
+Game 9 start  512
+Game 10 start  512
+Game 11 start  1024
+Game 12 start  1024
+Game 13 start  256
+Game 14 start  1024
+Game 15 start  512
+Game 16 start  1024
+Game 17 start  512
+Game 18 start  512
+Game 19 start  1024
+Game 20 start  512
+Game 21 start  512
+Game 22 start  1024
+Game 23 start  512
+Game 24 start  512
+Game 25 start  512
+
+Change eval to:h6 alone (14/25)
+Game 1 start  256
+Game 2 start  2048
+Game 3 start  1024
+Game 4 start  1024
+Game 5 start  2048
+Game 6 start  4096
+Game 7 start  2048
+Game 8 start  4096
+Game 9 start  1024
+Game 10 start  256
+Game 11 start  4096
+Game 12 start  512
+Game 13 start  2048
+Game 14 start  1024
+Game 15 start  2048
+Game 16 start  2048
+Game 17 start  2048
+Game 18 start  2048
+Game 19 start  1024
+Game 20 start  4096
+Game 21 start  2048
+Game 22 start  1024
+Game 23 start  4096
+Game 24 start  512
+Game 25 start  2048
+
+Change eval to h7 alone (12/25)
+Game 1 start  2048
+Game 2 start  1024
+Game 3 start  512
+Game 4 start  2048
+Game 5 start  2048
+Game 6 start  4096
+Game 7 start  1024
+Game 8 start  2048
+Game 9 start  512
+Game 10 start  2048
+Game 11 start  1024
+Game 12 start  2048
+Game 13 start  2048
+Game 14 start  2048
+Game 15 start  1024
+Game 16 start  1024
+Game 17 start  1024
+Game 18 start  1024
+Game 19 start  2048
+Game 20 start  1024
+Game 21 start  2048
+Game 22 start  2048
+Game 23 start  1024
+Game 24 start  1024
+Game 25 start  1024
+
+change eval to grid.getMaxTile():
+Game 1 start  128
+Game 2 start  128
+Game 3 start  64
+Game 4 start  64
+Game 5 start  128
+Game 6 start  256
+Game 7 start  64
+Game 8 start  32
+Game 9 start  64
+
+change eval to 0.1*self.heuristic6(grid)+0.1*self.heuristic7(grid)+self.heuristic1(grid):(17/25)
+Game 1 start  2048
+Game 2 start  2048
+Game 3 start  4096
+Game 4 start  2048
+Game 5 start  2048
+Game 6 start  2048
+Game 7 start  2048
+Game 8 start  512
+Game 9 start  2048
+Game 10 start  4096
+Game 11 start  512
+Game 12 start  2048
+Game 13 start  1024
+Game 14 start  2048
+Game 15 start  2048
+Game 16 start  2048
+Game 17 start  512
+Game 18 start  2048
+Game 19 start  512
+Game 20 start  2048
+Game 21 start  2048
+Game 22 start  2048
+Game 23 start  512
+Game 24 start  512
+Game 25 start  1024
+
+change eval to 0.1*self.heuristic6(grid)+0.1*self.heuristic7(grid)+self.heuristic1(grid)+0.1*grid.getMaxTile():
+Game 1: 512
+
+
+***change eval to 0.1*self.heuristic7(grid)+self.heuristic1(grid)+0.1*grid.getMaxTile(): (12/15)
+Game 1 start  2048
+Game 2 start  2048
+Game 3 start  2048
+Game 4 start  1024
+Game 5 start  2048
+Game 6 start  2048
+Game 7 start  1024
+Game 8 start  2048
+Game 9 start  2048
+Game 10 start  1024
+Game 11 start  2048
+Game 12 start  2048
+Game 13 start  2048
+Game 14 start  2048
+Game 15 start  2048
+
+
+change eval to 0.1*max(self.heuristic6(grid),self.heuristic7(grid))+self.heuristic1(grid)+0.1*grid.getMaxTile():
